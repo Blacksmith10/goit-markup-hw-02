@@ -1,0 +1,80 @@
+/* --root */
+
+body {
+    background-color: #ffffff;
+    color: #757575;
+}
+
+/* Header Section */
+
+.logo {
+    color: #000000;
+}
+
+.site-nav {
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus,
+.nav-contacts-link:hover,
+.nav-contacts-link:focus,
+.list-address:hover,
+.list-address:focus,
+.list-contacts:hover,
+.list-contacts:focus {
+    color: #2196F3;
+}
+
+.nav-contacts-link {
+    color: inherit;
+}
+
+/* Main Section */
+
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #ffffff;
+}
+
+.section-details .title {
+    color: #212121;
+}
+
+.section-photo-title,
+.section-team-title {
+    color: #212121;
+}
+
+.section-team .work {
+    color: #212121;
+}
+
+/* Footer */
+
+.list-contacts {
+    color: inherit;
+}
+.list-address {
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* oсновной цвет #FFFFFF
+ дополнительный цвет button #2196F3
+ серый цвет фона #2F303A
+ цвет заголовка #212121
+ основной цвет текста #757575
+*/
