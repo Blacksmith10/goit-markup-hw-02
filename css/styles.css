@@ -1,18 +1,45 @@
-/* --root */
+:root {
+    --primary-text-color: #757575;
+    --background-color-main: #ffffff;
+    --background-color-secondary: #2F303A;
+    --accent-color: #2196F3;
+    --secondary-text-color: #212121;
+    --logo-main-color: #000000;
+    --logo-second-color: #ffffff;
+}
 
 body {
-    background-color: #ffffff;
-    color: #757575;
+    background-color: var(--background-color-main);
+    color: var(--primary-text-color);
 }
 
 /* Header Section */
 
 .logo {
-    color: #000000;
+    color: var(--logo-main-color);
+    text-decoration: none;
+}
+
+.logo-blue {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo-bottom {
+    color: var(--logo-second-color);
+    text-decoration: none;
 }
 
 .site-nav {
-    color: #212121;
+    color: var(--secondary-text-color);
+}
+
+.site-nav-link {
+    text-decoration: none;
+}
+
+.site-nav-link.current {
+    color: var(--accent-color);
 }
 
 .list {
@@ -27,54 +54,81 @@ body {
 .list-address:focus,
 .list-contacts:hover,
 .list-contacts:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .nav-contacts-link {
     color: inherit;
+    text-decoration: none;
 }
 
 /* Main Section */
 
 .hero,
 .footer {
-    background-color: #2F303A;
+    background-color: var(--background-color-secondary);
 }
 
 .hero-title {
-    color: #ffffff;
+    color: var(--background-color-main);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--background-color-main);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--background-color-main);
+    color: var(--accent-color);
 }
 
 .section-details .title {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 
 .section-photo-title,
 .section-team-title {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 
 .section-team .work {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 
 /* Footer */
 
 .list-contacts {
     color: inherit;
+    text-decoration: none;
 }
 .list-address {
-    color: #ffffff;
+    color: var(--background-color-main);
+    text-decoration: none;
 }
 
 
+/* Portfolio */
 
+.filters {
+    background-color: var(--background-color-main);
+    color: var(--secondary-text-color);
+    list-style: none;
+}
 
+.filter.secondary {
+    background-color: var(--background-color-main);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
 
+.filter.secondary:hover,
+.filter.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--background-color-main);
+}
 
-/* oсновной цвет #FFFFFF
- дополнительный цвет button #2196F3
- серый цвет фона #2F303A
- цвет заголовка #212121
- основной цвет текста #757575
-*/
+.products {
+    color: var(--secondary-text-color);
+}
