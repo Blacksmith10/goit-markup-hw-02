@@ -11,7 +11,7 @@
 body {
     background-color: var(--background-color-main);
     color: var(--primary-text-color);
-    font-family: Roboto, Tahoma, sans-serif;
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 
@@ -55,6 +55,7 @@ body {
 }
 
 .site-nav-link {
+    color: var(--secondary-text-color);
     text-decoration: none;
 }
 
@@ -115,8 +116,8 @@ body {
 
 .button.primary:hover,
 .button.primary:focus {
-    background-color: var(--background-color-main);
-    color: var(--accent-color);
+    background-color: #188CE8;
+    color: var(--background-color-main);
 }
 
 .section-details .title {
@@ -144,6 +145,10 @@ body {
     color: var(--secondary-text-color);
 }
 
+.section-team {
+    background-color: #F5F4FA;
+}
+
 .section-team .work {
     font-weight: 500;
     font-size: 16px;
@@ -162,9 +167,10 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: inherit;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+
 .list-address {
     font-style: normal;
     font-size: 14px;
@@ -176,7 +182,7 @@ body {
 /* Portfolio */
 
 .filters {
-    background-color: var(--background-color-main);
+    background-color: #F5F4FA;
     color: var(--secondary-text-color);
     list-style: none;
 }
@@ -185,7 +191,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    background-color: var(--background-color-main);
+    background-color: #F5F4FA;
     color: var(--secondary-text-color);
     cursor: pointer;
 }
@@ -206,4 +212,9 @@ body {
 .products-text {
     font-size: 16px;
     line-height: 1.87;
+    color: var(--primary-text-color);
+}
+
+.products-link {
+    text-decoration: none;
 }
